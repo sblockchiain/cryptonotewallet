@@ -166,7 +166,7 @@ public:
     }
   }
 
-  ~InprocessNode() override {
+  ~InprocessNode() noexcept(true) override {
 
   }
 
